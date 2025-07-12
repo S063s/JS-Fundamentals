@@ -1,3 +1,3 @@
-let language = "JavaScript is amazing";;
+const myVar = "JavaScript is amazing";
 
-console.log(language);
+console.log(myVar);
