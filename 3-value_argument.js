@@ -6,3 +6,4 @@ if (firstArgument === undefined) {
 } else {
  
     console.log(firstArgument);
+}
