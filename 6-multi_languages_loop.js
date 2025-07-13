@@ -3,5 +3,8 @@ const message ={
     "Python is cool",
     "JavaScript is amazing"
 };
-const finalOutput = message.join("\n");
-console.log(finalOutput);
+let finalOutput = "";
+for (let i = 0; i < message.length; i++) {
+    finalOutput += message[i] + "\n";
+}
+console.log(finalOutput.slice(1));
